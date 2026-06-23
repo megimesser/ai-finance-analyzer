@@ -1,0 +1,3 @@
+[
+  "tests/test_excel_import.py::test_importer"
+]
