@@ -1,4 +1,4 @@
-from importer.importer import importer, format_portfolio
+from importer  import importer, format_portfolio
 import json 
 
 json_path = "finance.json"

@@ -2,12 +2,13 @@ import requests
 import os
 import json
 import time
-from importer.importer import importer
+from importer import importer
+from config import CLAUDE_API
 
 
-#Nach test löschen 
-api_key=os.getenv("CLAUDE_KEY")
 
+print(CLAUDE_API)
+#N
 
 with open("systemprompt.txt", "r") as message:
     content = message.read()
@@ -16,11 +17,12 @@ with open("systemprompt.txt", "r") as message:
 #Message print 
 #print(content)
 
+
 try:
     response = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={
-            "x-api-key": api_key,
+            "x-api-key": CLAUDE_API,
             "content-type": "application/json",
             "anthropic-version": "2023-06-01"
         },
@@ -45,9 +47,18 @@ try:
     if response.status_code != 200:
         print(f"API Error: {response.json()}")
         exit(1)
-except:
     
-data = response.json()
+    
+    data = response.json()
+    print(data)
+    
+
+except requests.RequestException as e:
+    print(f"Request fehlgeschlage: {e}")
+    
+    #data = response.json()
+
+
 
 # Alle Text-Blöcke zusammensammeln (Web Search erzeugt mehrere Blöcke)
 antwort = ""
@@ -57,15 +68,18 @@ for block in data["content"]:
 
 print(antwort)
 
+
+
 with open("output.json", "w", encoding="utf-8") as file:
     json.dump(data, file, indent=4, ensure_ascii=False)
 
 with open("antwort.txt", "w", encoding="utf-8") as file:
     file.write(antwort)
 
-
+"""
 
 #time.sleep(20)
 import sender
 sender.sender()
 
+"""
