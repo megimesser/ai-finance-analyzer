@@ -1,1 +1,6 @@
 yfinance
+openpyxl
+pandas
+os
+dotenv
+Mock

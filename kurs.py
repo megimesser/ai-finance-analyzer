@@ -1,5 +1,5 @@
 import yfinance as yf 
-from importer.importer import importer, ticker_format
+from importer import importer, ticker_format
 import json 
 
 # python -m kurs.kurs -> 

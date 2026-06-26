@@ -76,10 +76,3 @@ with open("output.json", "w", encoding="utf-8") as file:
 with open("antwort.txt", "w", encoding="utf-8") as file:
     file.write(antwort)
 
-"""
-
-#time.sleep(20)
-import sender
-sender.sender()
-
-"""

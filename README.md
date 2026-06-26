@@ -1,8 +1,28 @@
-# pytest cache directory #
+# Importer.py 
 
-This directory contains data from the pytest's cache plugin,
-which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+Importiert die einzelnen Portfolio - Werte aus der finance.xlsx
 
-**Do not** commit this to version control.
+# kurs.py
 
-See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+Ruft die Kursdaten für die Aktien und ETF´s innerhalb der Excel ab und speichert sie in 
+
+
+
+
+# konverter.py 
+
+verbindet Portfoliodaten mit dem Systemprompt für die weiterverarbeitung 
+
+
+# merger.py
+
+nimmt die Daten aus dem importer und verbindet sie mit der Abfrage 
+
+
+### Allgemeine Aktiennews - Abfrage 
+
+# requester.py
+Ruft auf Basis des Systemprompts die aktuellen allgemeinen News aus den Finanzmätkten ab 
+
+# sender.py
+sendet die antwort.txt als Mail 
