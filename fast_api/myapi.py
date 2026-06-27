@@ -42,7 +42,7 @@ students = {
 #google.com/get-student
 
 @app.get("/get-student/{student_id}")
-def get_student(student_id: int = Path(None, description="ID of the student you want to watch",ge=0)):
+def get_student(student_id: int = Path( description="ID of the student you want to watch",ge=0)):
     #try: 
     return students[student_id]   
     #except KeyError:
@@ -50,3 +50,21 @@ def get_student(student_id: int = Path(None, description="ID of the student you 
 
 
 # ge, get,lt,le -> Wieviel Größer oder kleiner müssen die values bei der eingabe sein 
+
+
+
+# Für Parameter 
+#google.com/results?search=python 
+
+#---> Der Parameter hier ist search=Python
+
+
+# get student by name 
+
+@app.get("/get-student-name")
+def get_student_name(student_name: str):
+    for student in students.values():
+        if student["name"] == student_name:
+            return student
+
+    return {"Data": "Not found"}
