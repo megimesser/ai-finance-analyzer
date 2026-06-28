@@ -4,3 +4,5 @@ pandas
 os
 dotenv
 Mock
+fastapi
+uvicorn

@@ -1,9 +1,10 @@
 import yfinance as yf 
 from importer import importer, ticker_format
 import json 
+from config import F_EXCEL, F_JSON
 
 # python -m kurs.kurs -> 
-kürzel = ticker_format(importer("finance.xlsx"))
+kürzel = ticker_format(importer(F_EXCEL))
 #print(kürzel)
 
 
@@ -53,6 +54,13 @@ finance_info(kürzel)
 print(analyse_list)
 
 
-with open("finance.json", "w", encoding="utf-8") as file:
-    json.dump(analyse_list, file, indent=4, ensure_ascii=False)
+def json_writer(path,file):
+    with open(path, "w", encoding="utf-8") as file:
+        json.dump(analyse_list, file, indent=4, ensure_ascii=False)
+        print("Json schreibt")
 
+
+if __name__ == "__main__":
+    kürzel = ticker_format(importer(F_EXCEL))
+    #finance_info(kürzel)
+    json_writer(F_JSON,finance_info(kürzel))

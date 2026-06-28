@@ -10,9 +10,9 @@ def format_portfolio(df):
     portfolio_text = "Mein Portfolio:\n"
     portfolio_list = []
     # _, -> erster Wert wird ignoriert Index 
-    for _, row in df.iterrows():
+    #for _, row in df.iterrows():
         #Buyin soll hier noch hinzugefügt werden
-        portfolio_text += f"{row["Ticker"]} - {row['Aktie']} - Einlage: {row['Menge']} \n"
+    #    portfolio_text += f"{row["Ticker"]} - {row['Aktie']} - Einlage: {row['Menge']} \n"
     for _, row in df.iterrows():
         portfolio_list.append({row["Ticker"],row["Menge"],row["Aktie"]})
     return portfolio_list

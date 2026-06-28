@@ -1,5 +1,6 @@
 from importer  import importer, format_portfolio
 import json 
+from config import F_JSON
 
 json_path = "finance.json"
 
@@ -8,7 +9,7 @@ def json_reader(path):
 
 
 test = importer("finance.xlsx")
-json_path = "finance.json"
+json_path = F_JSON
 formator= format_portfolio(test)
 
 #print(formator)

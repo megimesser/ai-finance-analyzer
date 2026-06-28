@@ -1,20 +1,27 @@
 import json
+from config import V_PROMPT,S_PROMPT,F_JSON
 
 path = "finance.json"
-path_2 = "systemprompt.txt"
+sys_prompt = "systemprompt.txt"
 path_3 = "vanilla_prompt.txt"
 
-with open(path, "r", encoding="utf-8") as f:
-    data = json.load(f)
 
-data = json.dumps(data, indent=2)
 
-with open(path_3, "r", encoding="utf-8") as f:
-    data_2 = f.read()
+def prompt_designer(json_path,systemprompt,vanillaprompt):
+    with open(json_path, "r", encoding="utf-8") as f :
+        data = json.load(f)
 
-prompt = data + "\n" + data_2
+    data = json.dumps(data, indent=2)
 
-print(prompt)
+    with open(vanillaprompt, "r", encoding="utf-8") as f:
+        data_2 = f.read()
 
-with open(path_2, "w", encoding="utf-8") as b:
-    b.write(prompt)
+    prompt = data + "\n" + data_2
+
+    print(prompt)
+
+    with open(systemprompt, "w", encoding="utf-8") as b:
+        b.write(prompt)
+
+if __name__ == "__main__":
+    prompt_designer(F_JSON,S_PROMPT,V_PROMPT)
