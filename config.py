@@ -11,14 +11,19 @@ CLAUDE_API = os.environ.get("CLAUDE_API","")
 
 
 
-# importer
+# Importer
 F_EXCEL = (os.path.join(BASE_DIR, "finance.xlsx"))
 
 
-# kurs
+# Kurs
 F_JSON = (os.path.join(BASE_DIR, "finance.json"))
 
 
-# konverter
+# Konverter
 V_PROMPT = (os.path.join(BASE_DIR,"vanilla_prompt.txt"))
 S_PROMPT = (os.path.join(BASE_DIR,"systemprompt.txt"))
+
+
+# Outputdateien
+O_JSON = (os.path.join(BASE_DIR,"output.json"))
+O_TEXT = (os.path.join(BASE_DIR,"output.txt"))

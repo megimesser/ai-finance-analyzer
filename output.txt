@@ -1,0 +1,38 @@
+Hier ist die vollständige Portfolio-Analyse als JSON, basierend auf den aktuellen Nachrichten der letzten 7 Tage:
+
+```json
+{
+  "analyses": [
+    {
+      "ticker": "XAIX.DE",
+      "name": "Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C",
+      "risk": "MEDIUM",
+      "action": "HALTEN",
+      "news": "Der XAIX.DE notiert laut Yahoo Finance bei ~158,98 EUR (+1,44% am 26.06.). Das Danelfin-KI-Modell vergibt einen AI-Score von 7/10 (Buy) und sieht eine 64,15%ige Wahrscheinlichkeit, den ETF-Markt in den nächsten 3 Monaten zu schlagen. Der ETF profitiert weiterhin vom AI-Superzyklus (Micron mit Rekordquartal), leidet aber unter dem breiten Tech-Selloff und dem monatlichen Minus von -1,11%.",
+      "source": "Danelfin (danelfin.com), Yahoo Finance (finance.yahoo.com/quote/XAIX.DE, 26.06.2026)",
+      "reason": "Der Fonds bietet mit einer TER von nur 0,35% kosteneffiziente Diversifikation im KI/Big-Data-Sektor mit einem AUM von 7,76 Mrd. EUR. Der AI-Superzyklus bleibt strukturell intakt (NVIDIA-Quartalsumsatz +65% YoY, Hyperscaler-Capex auf Rekordhöhe). Kurzfristig belastet der branchenweite Tech-Selloff und die hohe Konzentration auf den Sektor. Nachkaufen erst bei nachhaltigem Trendbruch über den 52-Wochen-Hochs sinnvoll – aktuell Halten."
+    },
+    {
+      "ticker": "EUNL.DE",
+      "name": "iShares Core MSCI World UCITS ETF USD (Acc)",
+      "risk": "LOW",
+      "action": "NACHKAUFEN",
+      "news": "Laut Investtech.com (26.06.2026) befindet sich der EUNL.DE in einem kurz- und mittelfristig steigenden Trendkanal, nähert sich aber einem Widerstand bei ~124–125 EUR. Der RSI divergiert leicht negativ. Mit einem AUM von 122,33 Mrd. EUR ist es der weltgrößte MSCI-World-ETF. Konkurrent Invesco senkte seinen MSCI-World-ETF auf 0,05% TER – bisher ohne signifikante Abflüsse.",
+      "source": "Investtech.com (26.06.2026), justETF (justetf.com, 06/2026), ad-hoc-news.de",
+      "reason": "Mit 0,20% TER, breiter globaler Diversifikation (23 Industrieländer) und einem Fondsvolumen von über 122 Mrd. EUR ist EUNL.DE der stabilste Anker im Portfolio. Der langfristige Aufwärtstrend ist intakt. Ein leichter Preisdruck durch günstigere Konkurrenz (Invesco 0,05%) stellt kein unmittelbares Risiko dar, da Abflüsse bisher ausgeblieben sind. Der monatliche Rückgang von -0,42% ist moderat. Gut geeignet für Nachkäufe auf Rücksetzer."
+    },
+    {
+      "ticker": "QDVE.DE",
+      "name": "iShares S&P 500 Information Technology Sector UCITS ETF",
+      "risk": "HIGH",
+      "action": "HALTEN",
+      "news": "Der QDVE.DE (iShares S&P 500 IT Sector) erlitt im letzten Monat -3,56% und notiert mit starken Sell-Signalen aus kurz- und langfristigen Moving Averages. Der breite Tech-Selloff trifft besonders den Sektor-ETF, da er zu ~35% in AAPL und NVDA konzentriert ist. Die globale Speicherknappheit (durch KI-Nachfrage) verteuert Halbleiter und drückt auf die Margen der Unternehmen im Index.",
+      "source": "StockInvest.us (QDVE.F, 16.02.2026), Yahoo Finance (QDVE.DE), CNBC",
+      "reason": "Der Sektor-ETF ist hochkonzentriert auf US-IT-Werte und hat keine Diversifikation außerhalb des Sektors. Mit -3,56% monatlichem Verlust und einem Kurs weit unter dem 52-Wochen-Hoch (46,36 EUR vs. aktuell ~33 EUR) ist das Risiko erhöht. Technisch bestehen Sell-Signale von beiden Moving Averages. Da AAPL und NVDA – die Top-Holdings – aktuell unter Druck stehen (Preiserhöhungen, Wettbewerb), ist Abwarten angebracht. Kein Nachkauf, bis sich Trendwende bestätigt."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "risk": "MEDIUM",
+      "action": "HALTEN",
+      "news": "NVIDIA hielt am 24.06.2026 seine Jahreshauptversammlung ab. CEO Jensen Huang betonte die Rampe der Blackwell- und Vera-Chips sowie den Fokus auf US-nationale Sicherheit bei Chipexporten. Dennoch fiel NVDA -8,62% seit dem Pivot-
