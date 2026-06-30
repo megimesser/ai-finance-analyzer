@@ -19,3 +19,5 @@ Jede Zeile MUSS einen direkten Link zum Quellartikel enthalten.
 </instructions>
 
 <sources>Reuters, Bloomberg, Financial Times, CNBC, Handelsblatt</sources>
+
+
