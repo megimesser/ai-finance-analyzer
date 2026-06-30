@@ -1,27 +1,38 @@
----
+Ich habe nun alle relevanten Nachrichten der letzten 7 Tage gesammelt. Hier ist das vollständige JSON-Analyse-Ergebnis:
 
-**📋 MARKT-BRIEFING — 24. Juni 2026**
-
----
-
-**RHM / Rüstung** | Bundesregierung bricht F126-Fregattenprogramm ab; Rheinmetall-Aktie -18,7% auf 949 €, erstmals seit einem Jahr unter 1.000 € | 📉 | https://de.marketscreener.com/boerse-nachrichten/xetra-schluss-rheinmetall-kurseinbruch-belastet-dax-ce7f5fdbd181f523 | RHM, Hensoldt, RENK
-
-**TKMS / Rüstung** | Bundeswehr kauft stattdessen 8 Meko-200-Fregatten von TKMS (Spiegel); TKMS-Aktie +16,1% | 📈 | https://www.marketscreener.com/news/dax-extends-its-slide-tkms-and-rheinmetall-in-focus-ce7f5fdbdd8df42d | TKMS00
-
-**MU / Halbleiter** | Micron Q3 FY2026 Earnings nach US-Börsenschluss: Analysten prognostizieren 932% EPS-Wachstum auf $19,72; HBM-Kapazität bis Ende 2026 ausverkauft | ➡️ (Watchlist) | https://cryptobriefing.com/micron-earnings-june-profit-growth/ | MU, SMH
-
-**Makro / Fed** | BofA prognostiziert 3 Zinserhöhungen (Sep/Okt/Dez 2026) auf 4,25–4,50% nach hawkischem Auftritt von Fed-Chef Warsh | 📉 (Anleihen/Wachstum) | https://fortune.com/2026/06/22/fed-rate-hikes-outlook-sticky-inflation-kevin-warsh-job-growth-oil-prices/ | TLT, QQQ
-
-**QCOM / KI-Software** | Qualcomm in fortgeschrittenen Verhandlungen zur Übernahme von AI-Infrastrukturanbieter Modular (~$4 Mrd.); Aktie -6% | 📉 | https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html | QCOM
-
-**ORCL / Tech** | Oracle meldet in regulatorischem Filing: 21.000 Stellen gestrichen (~13% der Belegschaft) im vergangenen Jahr | 📉 | https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html | ORCL
-
-**005930 KS / Halbleiter Asien** | KOSPI -9,99% (stärkster Einbruch seit 3 Monaten); Samsung & SK Hynix je -12%+; automatischer Handelsstopp ausgelöst | 📉 | https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026 | SMH, AAXJ
-
-**SpaceX / Tech-IPO** | SpaceX verliert >$600 Mrd. Börsenwert in 3 Tagen; Montag -16% auf $154,60 — tiefster Stand seit Börsendebüt | 📉 | https://www.handelsblatt.com/finanzen/maerkte/aktien/spacex-fuenf-gruende-fuer-die-boersenkrise-der-weltraum-aktie/100235090.html | SpaceX (A42D4F)
-
-**Öl / Makro** | Brent unter $75 (-4,6%); US-Iran-Einigung entspannt Hormus-Risiko; Ölpreis auf Vor-Kriegsniveau | 📉 | https://www.bloomberg.com/news/articles/2026-06-23/asian-stocks-set-to-extend-ai-chip-fueled-selloff-markets-wrap | XLE, OXF, BNO
-
-**Digital Euro / Regulierung EU** | EU-Wirtschaftsausschuss stimmt für Einführung des digitalen Euros; EZB-Rollout ab 2029 geplant | ➡️ (langfristig) | https://www.handelsblatt.com/finanzen/maerkte/ | EZB-Sektor, Fintechs
-
-**UUUU / Seltene Erden** | Energy Fuels kauft VAC (Magnetik-Hersteller) für $1,9 Mrd. in Cash & Aktien — strategischer Schritt zur China-Unabhängigkeit | 📈 | https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html | UUUU, REMX
+```json
+{
+  "analyses": [
+    {
+      "ticker": "XAIX.DE",
+      "name": "Xtr.(IE)-Art.Int.+Big Data ETFR",
+      "risk": "MEDIUM",
+      "action": "HALTEN",
+      "news": "Der XAIX-ETF verzeichnet weiterhin positive Zuflüsse (8 Mio. USD im letzten Monat) und erhält von Danelfin ein Buy-Rating (AI-Score 7/10) mit einer 64%igen Wahrscheinlichkeit, den ETF-Markt zu übertreffen. Gleichzeitig steht der gesamte KI-Sektor unter Korrekturdrucks, da Nvidia und andere KI-Chip-Aktien (ca. -6% im Monat) Gegenwind erfahren.",
+      "source": "ETFdb.com (Flussdaten); Danelfin.com (AI-Score, Stand Juni 2026)",
+      "reason": "Der ETF profitiert langfristig vom KI-Superzyklus und weist mit 0,35% TER sehr niedrige Kosten auf. Der monatliche Rückgang von -1,11% ist moderat und liegt deutlich unter dem 52-Wochen-Hoch (-39%). Da keine spezifischen strukturellen Negativnachrichten vorliegen und der ETF breit über den KI/Big-Data-Sektor diversifiziert ist, wird HALTEN empfohlen. Der Kurs liegt derzeit ca. 39% unter dem 52-Wochen-Hoch – kein Nachkauf, bis der Tech-Sektor Stabilisierung zeigt."
+    },
+    {
+      "ticker": "EUNL.DE",
+      "name": "iShsIII-Core MSCI World U.ETF R",
+      "risk": "LOW",
+      "action": "NACHKAUFEN",
+      "news": "Der iShares Core MSCI World UCITS ETF verzeichnete im vergangenen Jahr eine Gesamtrendite von +24,55% (TradingView) und befindet sich laut Investtech in einem mittelfristigen Aufwärtstrendkanal. Das AUM beträgt ca. 122 Mrd. EUR. Der ETF nähert sich dem Widerstand bei 124–125 EUR, was kurzfristig zu leichtem Druck führen kann.",
+      "source": "TradingView (EUNL-Kursdaten, Stand 30. Juni 2026); Investtech.com (technische Analyse)",
+      "reason": "Der EUNL ist die größte und kostengünstigste Core-Position im Portfolio (TER 0,20%) mit breiter Diversifikation über 23 Industrieländer. Die geringe monatliche Korrektur von -0,42% ist für eine Weltmarkt-Position untypisch niedrig und zeigt relative Stärke gegenüber Technologie-Einzelwerten. Der langfristige Aufwärtstrend ist intakt. Als Stabilitätsanker und mit der zweithöchsten Eigenkapital-Position (1.204,50€) im Portfolio ist ein schrittweises Nachkaufen bei der aktuellen Konsolidierung sinnvoll."
+    },
+    {
+      "ticker": "QDVE.DE",
+      "name": "iShsV-S&P 500 Inf.Te.Sec.U.ETFR",
+      "risk": "HIGH",
+      "action": "HALTEN",
+      "news": "Der iShares S&P 500 IT-Sektor-ETF leidet unter dem breiten Tech-Ausverkauf. Apple-Aktien (17,5% Gewichtung im ETF laut Holdings) stehen unter Druck wegen eines 19%igen iPhone-Rückgangs in China im Mai (UBS-Analyse, TipRanks 25. Juni 2026) und steigender Gerätepreise durch den globalen Speicherchip-Engpass. NVIDIA, ebenfalls im ETF gewichtet, ist von seinem 52-Wochen-Hoch ca. 19% entfernt.",
+      "source": "TipRanks via CNN Markets (25. Juni 2026, AAPL); Yahoo Finance (QDVE.DE Holdings, Stand 30. Juni 2026)",
+      "reason": "Der QDVE ist ein hochkonzentrierter Sektoren-ETF (99,32% Technology), der in einem schwierigen Marktumfeld mit -3,56% monatlichem Rückgang die schlechteste Monatsentwicklung aller ETFs im Portfolio aufweist. Der Kurs liegt ca. 7% unter dem 52-Wochen-Hoch. Der globale Speicherchip-Engpass durch den KI-Boom belastet die Top-Holdings wie Apple und andere Hardware-Werte strukturell. Eine Reduktion wäre angesichts des Klumpenrisikos (zusammen mit XAIX bereits hohe Tech-Exposure) denkbar, wird aber mangels konkreter Fundamentalverschlechterung zunächst auf HALTEN gesetzt."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "risk": "MEDIUM",
+      "action": "HALTEN",
+      "news": "Nvidia-Aktie ist in den letzten 7 Tagen um ca. 6% gefallen und handelt nun ca. 19% unter dem 52-Wochen-Hoch. Analysten von D.A. Davidson sehen NVDA und Micron als Zeichen, dass der KI-Zyklus seinen Höhepunkt erreicht
