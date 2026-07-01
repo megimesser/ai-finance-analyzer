@@ -31,3 +31,4 @@ O_TEXT = (os.path.join(BASE_DIR,"/data/output.txt"))
 
 # requester_port_news.py
 NEWS_PROMPT_PORT = (os.path.join(BASE_DIR,"data/prompts/messageprompt_port.txt"))
+NEWS_OUTPUT_PORT = (os.path.join(BASE_DIR,"data/outputs/news_port/output.txt"))
