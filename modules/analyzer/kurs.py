@@ -1,5 +1,5 @@
 import yfinance as yf 
-from importer import importer, ticker_format
+from analyzer.importer import importer, ticker_format
 import json 
 from config import F_EXCEL, F_JSON
 

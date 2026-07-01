@@ -2,10 +2,10 @@
 from config import F_EXCEL, F_JSON,CLAUDE_API,O_JSON,O_TEXT,S_PROMPT
 
 
-from _analyzer.importer import importer, format_portfolio, ticker_format
-from _analyzer.kurs import finance_info,json_writer
-from _analyzer.merger import merger
-from _requester.requester import api_caller
+from modules.analyzer.importer import importer, format_portfolio, ticker_format
+from modules.analyzer.kurs import finance_info,json_writer
+from modules.analyzer.merger import merger
+from modules.requester.requester import api_caller
 
 
 

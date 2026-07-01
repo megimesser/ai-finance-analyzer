@@ -62,5 +62,5 @@ with open("antwort.txt", "w", encoding="utf-8") as file:
 
 
 #time.sleep(20)
-import sender
+import sender.sender as sender
 sender.sender()

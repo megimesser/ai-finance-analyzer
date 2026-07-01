@@ -21,3 +21,33 @@ Jede Aktie darf nur einmal vorkommen - die Empfehlungen dürfen sich also nicht 
 
 Fokus: Earnings, Regulierung, Übernahmen, Makro-Signale.
 Kein Filler, keine Einleitungen, keine Zusammenfassung.
+Jede Zeile MUSS einen direkten Link zum Quellartikel enthalten.
+</instructions>
+
+<sources>Reuters, Bloomberg, Financial Times, CNBC, Handelsblatt</sources>
+
+Aktienliste
+XAIX.DE
+AI & Big Data USD ( Acc)
+Core MSCI World USD (Acc)
+EUNL.DE
+QDVE.DE
+S&P 500 Information Tech USD (Acc)
+NVIDIA
+NVDA
+Crowdstrike Holdings 
+CRWD
+TSLA
+Tesla
+Physical Swiss Gold USD
+SGLD.DE
+BTC
+Bitcoin
+PHAU
+Physcical Gold USD
+Apple 
+AAPL
+META
+Meta
+Netflix
+NFLX
