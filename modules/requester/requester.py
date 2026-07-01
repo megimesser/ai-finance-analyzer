@@ -2,7 +2,7 @@ import requests
 import os
 import json
 import time
-from analyzer.importer import importer
+from modules.analyzer.importer import importer
 from config import CLAUDE_API,O_JSON,O_TEXT,S_PROMPT
 
 

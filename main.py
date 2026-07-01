@@ -30,4 +30,4 @@ print("Formatierung fertig")
 
 
 # Requester 
-#api_caller(CLAUDE_API,S_PROMPT,O_JSON,O_TEXT)
+api_caller(CLAUDE_API,S_PROMPT,O_JSON,O_TEXT)

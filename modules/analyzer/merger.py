@@ -1,17 +1,16 @@
-from analyzer.importer  import importer, format_portfolio
+from modules.analyzer.importer  import importer, format_portfolio
 import json 
-from config import F_JSON
+from config import F_JSON,F_EXCEL
 
-json_path = "finance.json"
+
 
 def json_reader(path):
     return path
 
 
-test = importer("finance.xlsx")
-json_path = F_JSON
-formator= format_portfolio(test)
-
+df = importer(F_EXCEL)
+# Schritt 2: DataFrame -> formatieren
+formator = format_portfolio(df)
 #print(formator)
 
 

@@ -1,4 +1,5 @@
 import pandas as pd
+from config import F_EXCEL
 
 def importer(filepath):
     #import von Excel
@@ -28,7 +29,7 @@ def ticker_format(df):
 
 # Sogenannter "Guard" - Block wird nur ausgeführt wenn Script direkt gestartet wird 
 if __name__ == "__main__":
-    df = importer("finance.xlsx")
+    df = importer(F_EXCEL)
     #print(df.columns.tolist())
     print(format_portfolio(df))
    
